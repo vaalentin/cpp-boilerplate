@@ -1,5 +1,7 @@
 # C++ Boilerplate
 
+[![Build Status](https://travis-ci.org/vaalentin/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/vaalentin/cpp-boilerplate)
+
 ## Installation
 
 Generate build files with:
