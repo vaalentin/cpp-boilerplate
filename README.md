@@ -5,11 +5,11 @@
 Generate build files with:
 
 ```
-$ git clone git@github.com:vaalentin/cpp-boilerplate.git
+$ git clone --recursive git@github.com:vaalentin/cpp-boilerplate.git
 $ cd cpp-boilerplate
 $ mkdir build
 $ cd build
-$ cmake ..
+$ cmake -D TESTS=ON ..
 ```
 
 ## Usage
@@ -19,6 +19,7 @@ From the build folder:
 ```
 - make # build
 - ./main # execute project
+- ./tests # execute tests
 ```
 
 ## License
